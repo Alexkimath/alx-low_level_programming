@@ -1,8 +1,10 @@
 /*output a string*/
+
 #include<stdio.h>
 /**
   * main: entry
-  * Description: prints, Programming is like building a multilingual puzzle
+  * Description:prints, Programming is like building a multilingual puzzle
+
   * Return: always 0
   */
 int main(void)
