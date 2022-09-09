@@ -1,3 +1,4 @@
+/*output a string*/
 #include<stdio.h>
 /**
   * main: entry
