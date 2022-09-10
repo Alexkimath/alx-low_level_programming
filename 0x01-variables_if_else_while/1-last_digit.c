@@ -3,13 +3,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  * main- entry point
-  *
-  * Description: prints last number
-  * and either grater than 5, o or grater than 6 and less than zero
-  *
-  * Return: Always (0) success
-  */
+ * main- entry point
+ *
+ * Description: prints last number
+ * and either grater than 5, o or grater than 6 and less than zero
+ *
+ * Return: Always (0) success
+ */
 int main(void)
 {
 	int n, 1;
