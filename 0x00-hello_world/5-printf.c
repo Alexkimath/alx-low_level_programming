@@ -1,27 +1,15 @@
+/*output using printf*/
 #include<stdio.h>
-
 /**
+ * main- Entry Point
  *
- *  * main- Entry Point
+ * Description: Prints "With proper grammar, but the outcome is a piece "
  *
- *   *
- *
- *    * Description: Prints "With proper grammar, but the outcome is a piece "
- *
- *     *
- *
- *      * Return: main 0
- *
- *       *
- *
- *        */
+ * Return: main 0
+ */
 
 int main(void)
-
 {
-
-		printf("with proper grammar, but the outcome is a piece of art,\n");
-
-			return (0);
-
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
