@@ -1,22 +1,20 @@
 /*output alphabets in lowercase*/
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * Main- entry point
+ * main - entry point
  *
- * Returrn: Always 0 success
+ * Return: Always 0 success
  */
-
 int main(void)
 {
-	int letter;
+	int ap;
 
-	letter = 'a';
-	while (letter <= 'z');
+	for (ap = 'a'; ap <= 'z'; ap++)
 
 	{
-		putchar(letter);
-		letter++;
+		putchar(ap)
 	}
 	putchar('\n');
 	return (0);
+}
