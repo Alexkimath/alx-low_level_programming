@@ -1,22 +1,22 @@
-/*outputs alphabets in lowercase*/
+/*output alphabets in lowercase*/
 #include <stdio.h>
+
 /**
- * main- Entry point
+ * Main- entry point
  *
- * Description: prints alphabets
- * printing in lowercase
- * Return: Always 0 (success)
+ * Returrn: Always 0 success
  */
+
 int main(void)
 {
-	/* start with a */
 	int letter;
 
 	letter = 'a';
-	while letter <= 'z';
-	{ putchar(letter);
+	while (letter <= 'z');
 
-	letter++;
+	{
+		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
-		return (0);
+	return (0);
