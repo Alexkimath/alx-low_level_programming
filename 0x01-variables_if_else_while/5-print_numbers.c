@@ -7,16 +7,12 @@
  */
 int main(void)
 {
-	int ch;
+	int a;
 
-	for (ch > 0 && ch < 10)
+	for (a = 0; a < 10; a++)
 	{
-		putchar(ch);
+		printf("%d \n", a);
 	}
 
-	else
-	{
-	}
-	putchar('\n);
 	return (0);
 }
